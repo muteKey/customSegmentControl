@@ -13,6 +13,8 @@
 		E88D2D9C1CAC08E90012CB27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88D2D9A1CAC08E90012CB27 /* Main.storyboard */; };
 		E88D2D9E1CAC08E90012CB27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E88D2D9D1CAC08E90012CB27 /* Assets.xcassets */; };
 		E88D2DA11CAC08E90012CB27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88D2D9F1CAC08E90012CB27 /* LaunchScreen.storyboard */; };
+		E8A676A91CAD2FF6008204D9 /* SegmentNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A676A81CAD2FF6008204D9 /* SegmentNavigationView.m */; };
+		E8A676AC1CAD40D3008204D9 /* SegmentNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8A676AB1CAD40D3008204D9 /* SegmentNavigationView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		E88D2D9D1CAC08E90012CB27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E88D2DA01CAC08E90012CB27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E88D2DA21CAC08E90012CB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A676A71CAD2FF6008204D9 /* SegmentNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentNavigationView.h; sourceTree = "<group>"; };
+		E8A676A81CAD2FF6008204D9 /* SegmentNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentNavigationView.m; sourceTree = "<group>"; };
+		E8A676AB1CAD40D3008204D9 /* SegmentNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentNavigationView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				E88D2D9F1CAC08E90012CB27 /* LaunchScreen.storyboard */,
 				E88D2DA21CAC08E90012CB27 /* Info.plist */,
 				E88D2D911CAC08E80012CB27 /* Supporting Files */,
+				E8A676A71CAD2FF6008204D9 /* SegmentNavigationView.h */,
+				E8A676A81CAD2FF6008204D9 /* SegmentNavigationView.m */,
+				E8A676AB1CAD40D3008204D9 /* SegmentNavigationView.xib */,
 			);
 			path = CustomSegmentedControl;
 			sourceTree = "<group>";
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A676AC1CAD40D3008204D9 /* SegmentNavigationView.xib in Resources */,
 				E88D2DA11CAC08E90012CB27 /* LaunchScreen.storyboard in Resources */,
 				E88D2D9E1CAC08E90012CB27 /* Assets.xcassets in Resources */,
 				E88D2D9C1CAC08E90012CB27 /* Main.storyboard in Resources */,
@@ -149,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A676A91CAD2FF6008204D9 /* SegmentNavigationView.m in Sources */,
 				E88D2D991CAC08E90012CB27 /* ViewController.m in Sources */,
 				E88D2D961CAC08E80012CB27 /* AppDelegate.m in Sources */,
 				E88D2D931CAC08E80012CB27 /* main.m in Sources */,
@@ -298,6 +308,7 @@
 				E88D2DA71CAC08E90012CB27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

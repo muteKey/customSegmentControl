@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "SegmentNavigationView.h"
 
-@interface ViewController ()
+@interface ViewController ()<SegmentNavigationViewProtocol>
+
+@property (weak, nonatomic) IBOutlet SegmentNavigationView *segmentNavigationView;
 
 @end
 
@@ -16,7 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+}
+
+- (void)didChangeSegmentInNavigationView:(SegmentNavigationView *)view segmentControl:(UISegmentedControl *)segmentControl {
+    
 }
 
 - (void)didReceiveMemoryWarning {
